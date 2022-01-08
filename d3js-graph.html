@@ -10,14 +10,33 @@
 </head>
 
 <body>
-    <div id="main">
-        <button onclick="update(data1)">Dataset 1</button>
-        <button onclick="update(data2)">Dataset 2</button>
-        <button onclick="update(data3)">Dataset 3</button>
+    <h1>Trabalho 1 de Visualização de Dados</h1>
+    <h1>Professor: Marcos Lage / Aluno: Carlos Cesar Santos </h1>
+    
+
+    <h2>Gráfico de Barras</h2>
+    <h3>Valores máximos de tamanho de sépala das amostras inseridas no banco de dados Íris</h3>
+    <div id="gbarra"></div>
+    <h2>Gráfico Scatterplot</h2>
+    <h3>Tamanho da Pétala vs tamanho da Sépala</h3>
+    <div id="gscatter"></div>
+    <h2>Gráfico de Linhas</h2>
+    <h3>Gráfico considerando o tamanho das pétalas em cm (eixo y) por cada amostra coletada (eixo x)</h3>
+    <h4>Interessante que os valores mudam de patamar para cada classe</h4>
+    <h3>Ao apertar os botões é feito um zoom em cada uma destas classes com as animações</h3>
+        <h1>
+        <button onclick="update(data2)">Todas as classes</button>
+        <button onclick="update(data3)">Iris Setosa</button>
+        <button onclick="update(data4)">Iris Versicolor</button>
+        <button onclick="update(data5)">Iris Vírginica</button>
+
+    </h1>
+    <div id="glinha">
+ 
     </div>
 
 </body>
 
-<script src="d3js-graph.js"></script>  
+<script src="d3js-graphs.js"></script>  
 
 </html>

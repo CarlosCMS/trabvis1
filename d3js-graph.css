@@ -1,7 +1,12 @@
-circle {
-    stroke: 1px solid gray;
-}
+/* circle {
+    stroke: 1px solid rgb(221, 55, 55);
+} */
 
 .tick line{
     stroke: gray;
+}
+circle{
+    stroke: gray;
+    stroke-width: 5px;
+    fill: #00bf20;
 }
